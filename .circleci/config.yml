@@ -4,7 +4,7 @@ jobs:
     working_directory: /app
     docker:
       - image: docker:17.05.0-ce-git
-    resource_class: arm.xlarge
+    resource_class: arm.large
     #parallel: 20
     steps:
       - checkout
